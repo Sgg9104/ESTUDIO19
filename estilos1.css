@@ -266,6 +266,18 @@ footer .col-md-4 {
         font-size: 1.9rem;
     }
 }
+@media (max-width: 400px) {
+  footer p {
+    font-size: 30px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+
+  footer .col-md-4 {
+    padding: 10px;
+  }
+}
 
 
 
