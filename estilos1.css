@@ -1,0 +1,272 @@
+body {
+    background-color: #fff6ed; 
+}
+
+.navbar-custom {
+    background-color: #999966;
+    height: 18%;
+
+
+}
+
+.titulo-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.logo-img {
+    height: 80px;
+    margin-right: 8px;
+    
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Bold;
+
+
+}
+
+.offcanvas-fullscreen {
+    width: 100%;
+    height: 100%;
+    background-color: #c6de9b;
+}
+
+.offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: Bold;
+}
+
+.offcanvas-body div {
+    font-size: 2rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+}
+
+.offcanvas-body div:hover {
+    transform: scale(1.1);
+}
+
+body {
+    padding-top: 300px;
+    font-size: 30px;
+    font-family: Bold;
+}
+
+.contenedor-relativo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-equipo {
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    opacity: 0.3;
+    object-fit: cover; 
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.nosotros {
+    margin-top: 100px;
+    text-align: center;
+
+
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.imagen-logo4 {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: auto;
+   
+
+}
+
+.nombre-fundadora {
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.comosoy {
+    margin-top: 20px;
+    
+}
+
+.servicios {
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor-rela {
+    position: relative; 
+    padding: 20px;
+}
+#carouselExampleControls {
+    padding-top: 70px;
+}
+#carouselExampleControls1 {
+    margin-bottom: 50px; 
+    margin-top: 50px;
+}
+
+
+
+.lista {
+    position: relative;
+    z-index: 1; 
+    
+}
+
+
+footer {
+
+    height: auto; 
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    background-color: #999966;
+    
+}
+
+
+footer h5, footer p, footer a, footer small {
+    font-size: 30px; 
+    margin: 5px 0; 
+}
+
+footer p, footer a {
+    font-size: 25px; 
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+a.text-dark:hover {
+    color: blue !important;
+    transition: color 0.3s ease;
+}
+
+footer .text-center small {
+    display: block;
+    margin-top: 20px;
+    opacity: 0.8; 
+}
+footer .container {
+    max-width: 80%;
+}
+
+footer .row {
+    gap: 10px; 
+}
+
+footer .col-md-4 {
+    padding: 5px; 
+}
+
+
+.bi-instagram {
+    margin-right: 8px;
+    
+}
+.texto-sobre-imagen {
+    position: relative;
+    z-index: 1; 
+    font-size: clamp(16px, 2vw, 30px); 
+    padding: 20px;
+}
+
+
+
+@media (max-width: 700px) {
+    .contenedor-relativo {
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    .nosotros, .servicios, .contacto {
+        margin-top: 50px; 
+    }
+    .offcanvas-body div {
+        font-size: 24px;
+        padding: 8px;
+    }
+    .navbar-custom {
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo-img {
+        height: 50px; 
+    }
+
+    h1 {
+        font-size: 40px; 
+    }
+   
+}
+@media (max-width: 1000px) {
+    .navbar .container-fluid {
+        flex-wrap: nowrap;
+    }
+
+    .titulo-logo {
+        flex-shrink: 1;
+    }
+
+    .menu-btn {
+        flex-shrink: 0;
+        margin-left: auto;
+    }
+}
+@media (max-width: 300px) {
+     .titulo-logo h1 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .logo-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn[data-bs-toggle="offcanvas"] {
+        padding: 0.3rem 0.6rem;
+    }
+
+    .bi-list {
+        font-size: 1.5rem;
+    }
+    .titulo-servicios {
+        font-size: 1.9rem;
+    }
+}
+
+
+
+
